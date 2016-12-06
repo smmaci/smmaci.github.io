@@ -1,0 +1,34 @@
+.container{
+  width: 70vw;
+  height: 100vh;
+  margin-left: 15vw;
+  float: left;
+}
+
+.sidebar{
+  width:15vw;
+  height:100vh;
+  background-color: #2891bf;
+  text-align: right;
+  color: white;
+  padding-right: 5px;
+  font-size: 20px;
+  float: left;
+}
+
+.content{
+  width: 50vw;
+  height: 100vh;
+  margin-left: 1vw;
+  background-color: #d6e5ff;
+  text-align: left;
+  float: left;
+  color: black;
+}
+
+.h1{
+  font-size: 28px;
+}
+.h2{
+  font-size: 20px;
+}
