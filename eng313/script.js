@@ -12,5 +12,5 @@ function displayAbout(){
   document.getElementById("content").innerHTML = aboutText;
 }
 function displayEducation(){
-  var eduText =
+  var eduText;
 }
