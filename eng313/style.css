@@ -43,3 +43,27 @@
 .h2{
   font-size: 20px;
 }
+
+.nav ul{
+  list-style: none;
+  width: 100%;
+}
+.nav li{
+  display: block;
+  padding-right: 5%;
+  height: 40px;
+  width: auto;
+  text-decoration: none;
+  background-color: #2891bf;
+}
+.nav a:link, a:visited{
+  color: white;
+  text-decoration: none;
+}
+.nav a:hover, a:active{
+  background-color: white;
+  color: #2891bf;
+}
+.nav li:hover{
+  background-color: white;
+}
