@@ -14,7 +14,7 @@ function displayAbout(){
 function displayEducation(){
   var eduText = "<h1>Education</h1>"+
   "<h2>Miami University</h2>"+
-  "<h4>Oxford, Ohio</h4>"+
+  "<h4>Oxford, Ohio -- 2014-2018</h4>"+
   "<table>"+
     "<tr>"+
       "<td>Degree</td>"+
@@ -41,11 +41,43 @@ function displayEducation(){
 }
 
 function displayWork(){
-  var workText;
+  var workText= "<h1>Work Experience</h1>"+
+  "<h2>Enterprise Content Management Intern, <i>Westfield Insurance</i></h2>"+
+  "<h4>May - August 2016</h4>"+
+  " I worked for Westfield Insurance in the summer of 2016 assisting the Enterprise Content Management team."+
+  " A majority of my time was used to aid in the company's transition to new software"+
+  " for storing and retrieving data. My work at Westfield could be compared to that of a Business Systems Analyst. "+
+  " Additionally I: "+
+  "<ul><li>Led technical training sessions teaching business personel use new software</li>"+
+  "<li>Created and maintained documentation for company software</li>"+
+  "<li>Performed complex analyses on large software performance data sets</li>"+
+  "<li>Created and presented analyses and projections for new technical initiatives</li></ul>"+
+  "<h2>Intern, <i>Gemmis Technologies</i>"+
+  "<h4>May - July 2015</h4>"+
+  " I worked at Gemmis Technologies in the first half of the summer of 2015. While at"+
+  " Gemmis, I worked hands on repairing and refurbishing desktop computers and"+
+  " servers. I also shadowed technicians as we set up an maintained our customers' technical solutions."+
+  " Additionally I:"+
+  "<ul><li>Provided technical support for customers over the phone</li>"+
+  "<li>Assisted in network installation and maintainence for small businesses</li></ul>";
   document.getElementById("content").innerHTML = workText;
 }
 
 function displayExperience(){
-  var expText;
+  var expText=""+
+  "<h1>Additional Experience</h1>"+
+  "<h2>HackMIT</h2>"+
+  "<h4>Massachussets Institute of Technology, Fall 2016</h4>"+
+  "<p>I attended HackMIT, the Massachussets Institute of Technology's largest hackathon in September of 2016."+
+  " I entered the competition with friends from school, and MIT flew us out to Cambridge to compete."+
+  " While at the hackathon we created a webservice that used IBM Watson's natural language processing"+
+  " capabilities to analyze the tone of a conversation in real time.</p>"+
+  "<p>I also took the opportunity while at the hackathon to meet with industry leaders and discussed"+
+  " the state of software engineerin as a field, as well as sitting in on tech demontrations from companies like Microsoft and Disney.</p>"+
+  "<h2>Hack OHI/O</h2>"+
+  "<h4>The Ohio State University, Fall 2015</h4>"+
+  "<p>Hack OHI/O was the first hackathon I attended, in November of 2015, and while I did not enter anything into the competition,"+
+  " I took the opportunity to meet with many industry leaders and their representatives. I also taugh myself very basic Android development"+
+  " while at the hackathon.</p>";
   document.getElementById("content").innerHTML = expText;
 }
