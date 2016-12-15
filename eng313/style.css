@@ -3,6 +3,7 @@
   height: 100vh;
   margin-left: 20vw;
   float: left;
+  font-family:sans-serif;
 }
 
 .sidebar{
@@ -23,7 +24,7 @@
   background-color: #d6e5ff;
   text-align: left;
   float: left;
-  color: black;
+  color: #2891bf;
   padding-left: 1vw;
   padding-right: 1vw;
 }
@@ -34,14 +35,16 @@
   width: auto;
 }
 
-.h1{
-  font-size: 28px;
-  padding-top: 0px;
-  margin-top: 0px;
+h1{
+  /*font-size: 28px;*/
 }
 
-.h2{
+h2{
+  margin-bottom: 0px;
   font-size: 20px;
+}
+h4{
+  margin-top: 0px;
 }
 
 .nav ul{
@@ -55,6 +58,9 @@
   width: auto;
   text-decoration: none;
   background-color: #2891bf;
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
 }
 .nav a:link, a:visited{
   color: white;
@@ -66,4 +72,13 @@
 }
 .nav li:hover{
   background-color: white;
+}
+
+td{
+  padding-left: 5px;
+  padding-right: 15px
+  vertical-align: top;
+}
+td:nth-child(odd){
+  text-align: right;
 }
