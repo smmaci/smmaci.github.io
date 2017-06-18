@@ -1,3 +1,4 @@
+        </ul>
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -7,40 +8,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>
-      Sam Mallamaci
+      Samuel Mallamaci
     </title>
 
-    <!--Bootstrap CDN-->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Bootstrap 3 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!--And a little custom CSS-->
     <link rel="stylesheet" href = "css/custom.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet"> 
   </head>
 
+  <!-- 
+    Hello to whoever inspected my site's source!
+    I initailly thought of using a template for my personal site,
+    as it would no doubt look much better than this,
+    but I felt that it would be a bit cheat-y, especially for a site as simple
+    to make as this.
+    
+    I've relied on the Mozilla MDN as a reference for some parts of my code,
+    especially for css elements.
+  -->
+
   <body>
+
     <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="body-box">
-            <img src="" alt="" class="img-rounded img-responsive">
-            <p><h1 class="text-right">Sam Mallamaci</h1></p>
-          </div>
-        </div>
-        <div class="col-md-8">
-          <h1>
-            About Me
-          </h1>
-          <div class="jumbotron">
-            <h3>I was supposed to have this finished last weekend, but HackMIT 2016 got in the way!</h3>
-          </div>
-        </div>
+      <div class="info col-md-3" id="info">
+        <img src="img/profile2.png" alt="Hello There!" class="img-rounded img-responsive">
+        <h1 class="title">Samuel Mallamaci</h1>
+        <p>
+          <small><em>email:</em></small> sam (dot) mallamaci (at) gmail<br>
+          <small><em>email:</em></small> sam (dot) mallamaci (at) gmail
+        </p>
+
+        <ul class="nav nav-pills nav-stacked">
+          <li role="presentation"><a href="#about">About Me</a></li>
+          <li role="presentation"><a href="#work">Work Experience</a></li>
+          <li role="presentation"><a href="#other">Other Experience</a></li>
+          <li role="presentation"><a href="resume.pdf">Résumé</a></li>
+        </ul>
+
       </div>
+
+      <div class="content col-md-8 col-md-offset-1">     
+
+        <div id="about" class="aboutMe">
+          <h1 class="title">About Me</h1>
+            <div class="panel panel-default">
+              <div class="panel-body">
+                Hello World! My name is Samuel Mallamaci. I am an aspiring software developer, currently in my senior year at Miami University, pursuing a Bachelor's degree in Computer Science.
+
+                <br><br>
+
+                Currently, I am seeking employment upon graduation, primarily in a front-end developement position, but I am really open to anything! I consider myself to be a fast learner, and I am comfortable swithcing coding context.
+
+                <br><br>
+
+                In my free time I enjoy photography and cooking, as well as hiking and backpacking. I hope to find myself living in an area with ample opportunity for all of these things.
+
+              </div>
+            </div>
+        </div>
+
+        <div id="work" class="workExperience">
+          
+          <h1 class="title">Work Experience</h1>
+          
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Kroger Digital</h3>
+              </div>
+              <div class="panel-body">
+                <em>Internsip, Summer 2017</em>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis efficitur lacinia. Sed at convallis risus. In hac habitasse platea dictumst. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc facilisis, magna ut cursus convallis, elit massa faucibus est, id molestie lectus leo eu lectus. Proin auctor gravida mi, eu venenatis turpis feugiat in. Praesent volutpat aliquet diam, ut ultrices nisl ornare vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean in dapibus erat. Mauris sed mi a arcu luctus ultrices. Phasellus bibendum ligula orci, vel congue felis congue id. Aliquam pretium tincidunt libero eget laoreet. </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Westfield Insurance</h3>
+              </div>
+              <div class="panel-body">
+                <em>Internsip, Summer 2016, Winter 2016</em>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis efficitur lacinia. Sed at convallis risus. In hac habitasse platea dictumst. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc facilisis, magna ut cursus convallis, elit massa faucibus est, id molestie lectus leo eu lectus. Proin auctor gravida mi, eu venenatis turpis feugiat in. Praesent volutpat aliquet diam, ut ultrices nisl ornare vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean in dapibus erat. Mauris sed mi a arcu luctus ultrices. Phasellus bibendum ligula orci, vel congue felis congue id. Aliquam pretium tincidunt libero eget laoreet. </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="other" class="otherExperience">
+          <h1 class="title">Other Experience</h1>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Hack MIT 2016</h3>
+              </div>
+              <div class="panel-body">
+                <em>Internsip, Summer 2017</em>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis efficitur lacinia. Sed at convallis risus. In hac habitasse platea dictumst. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc facilisis, magna ut cursus convallis, elit massa faucibus est, id molestie lectus leo eu lectus. Proin auctor gravida mi, eu venenatis turpis feugiat in. Praesent volutpat aliquet diam, ut ultrices nisl ornare vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean in dapibus erat. Mauris sed mi a arcu luctus ultrices. Phasellus bibendum ligula orci, vel congue felis congue id. Aliquam pretium tincidunt libero eget laoreet. </p>
+              </div>
+            </div>
+        </div>
+
+      </div>      
     </div>
 
   </body>

@@ -1,6 +1,38 @@
-.body-box{
-  background-color: #9575CD;
-  color: white;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  /*padding: 5px*/
+#info.affix-top {
+	position: static;
+	margin-top:10px;
+}
+
+#info.affix {
+	position: fixed;
+	top:10px;
+}
+
+.content {
+	background: #FFF url('../img/bg-site.png') repeat top left;
+	height: 100%
+}
+
+/*
+ * Background image css adapted from https://askubuntu.com/
+*/
+
+body {
+	color: #111;
+	background-color: rgb(255, 255, 255);
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-size: auto auto;
+	padding-top: 10px;
+
+	transition: all 0.4s ease 0s
+}
+
+.title  {
+	font-family: 'Arvo', serif;
 }
